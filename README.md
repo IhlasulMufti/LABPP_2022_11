@@ -40,8 +40,11 @@
 5. Didalam folder tersebut, buat sebuah folder dengan nama **Praktikum-n**, **n** = praktikum keberapa
    ```sh
 
-   mkdir "Praktikum-n"
+   mkdir "Praktikum n"
    cd "Praktikum n"
+   
+   CATATAN: n DI SINI ADALAH NOMOR PRAKTIKUM KE BERAPA
+   CONTOH: Praktikum 1
 
    ```
 
@@ -49,9 +52,12 @@
 8. Setiap membuat _file_ atau melakukan perubahan, lakukan proses **commit** dengan pesan yang deskriptif
 
    ```sh
+   CATATAN: NAMA FILE TUGAS ADALAH "TPn_noSoal_NIM.py"
+   CONTOH: TP1_1_H071201068.py , TP2_3_H071201068.py
+   
    git add . #perintah ini memilih seluruh file sekaligus
    # atau
-   git add "Praktikum n/NIM/FilePythonYangBerubahAtauDitambahkan.py" #perintah ini memilih file tertentu
+   git add "NIM/Praktikum n/FilePythonYangBerubahAtauDitambahkan.py" #perintah ini memilih file tertentu
    
    SAYA SARANKAN JANGAN PAKAI git add . UNTUK MENGHINDARI PENAMBAHAN UNTUK SEMUA FILE TERMASUK FILE YANG TIDAK DIINGINKAN
    LEBIH BAIK MEMAKAI git add "NIM/Praktikum n/nama_file.py" UNTUK MENAMBAHKAN FILE
