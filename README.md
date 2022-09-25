@@ -52,6 +52,14 @@
    git add . #perintah ini memilih seluruh file sekaligus
    # atau
    git add "Praktikum n/NIM/FilePythonYangBerubahAtauDitambahkan.py" #perintah ini memilih file tertentu
+   
+   SAYA SARANKAN JANGAN PAKAI git add . UNTUK MENGHINDARI PENAMBAHAN UNTUK SEMUA FILE TERMASUK FILE YANG TIDAK DIINGINKAN
+   LEBIH BAIK MEMAKAI git add "NIM/Praktikum n/nama_file.py" UNTUK MENAMBAHKAN FILE
+   
+   git status untuk mengecek apakah file sudah ter add atau tidak.
+   Jika file yang ingin di add sudah berwarna hijau lanjut ke commit.
+   Jika file yang ingin di add berwarna merah lakukan add terlebih dahulu
+   
    git commit -m "pesan mengenai penambahan atau perubahan apa yang anda lakukan"
    
    ```
