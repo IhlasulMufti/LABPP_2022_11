@@ -11,5 +11,5 @@ for i in array2:
         duplikat.append(i)
         duplikat.sort()
 
-duplikat = list(dict.fromkeys(duplikat))
+duplikat = tuple(dict.fromkeys(duplikat))
 print(f'terdapat {len(duplikat)} Duplikasi {duplikat}')
